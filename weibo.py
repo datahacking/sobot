@@ -5,8 +5,8 @@ import urllib2
 import cookielib
 import logging
 
-USERNAME = '809815644@qq.com'
-PASSWORD = '809815644'
+USERNAME = 'Your weibo username'
+PASSWORD = 'Your weibo password'
 
 cookiejar = cookielib.LWPCookieJar()
 cookie_support = urllib2.HTTPCookieProcessor(cookiejar)
