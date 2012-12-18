@@ -21,6 +21,6 @@ You can follow these robots at:
 
 [Renren address](http://www.renren.com/363090017/profile)
 
-## Hope it's helpful who is interested in machine learning like me.
+## Hope it's helpful for those interested in machine learning like me.
 
 
