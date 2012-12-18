@@ -1,0 +1,24 @@
+application: mysocialbot 
+version: 2 
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: jinja2
+  version: latest
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /static
+  static_dir: static
+
+- url: /cron
+  script: main.app
+
+- url: /.*
+  script: main.app 
+

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+  <ul style="margin: -15px;">
+  {% for message in messages %}
+    <li> {{ message.status}} </li>
+  {% endfor %}
+ </ul>
+</div>
+{% endblock %}
+
+

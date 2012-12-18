@@ -1,4 +1,4 @@
-sobot
-=====
+robots
+======
 
-Chinese social websites(Weibo, Renren) robots 
+Social robots hosted on Google app engine.
